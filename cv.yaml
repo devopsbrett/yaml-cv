@@ -1,0 +1,241 @@
+name: Brett Mack
+address: hidden 
+contact:
+    Mobile: "07450 432269"
+    Email: mack.brett@gmail.com
+
+sections:
+    - section:
+        title: Personal Statement
+        type: simple
+        text: >
+            I am a keen, able, and versatile technologist
+            with a love of Open Source software, Linux systems,
+            Cloud Architecture, automation of project builds
+            and infrastructure provisioning, Continuous Delivery,
+            PHP, and Ruby. I like to be challenged and to learn,
+            and as such spend some of my free time reading up on
+            new technologies as well as advancing my knowledge of
+            the existing technologies I use. I understand the
+            importance of deadlines and do everything I can to make
+            sure they are met, including taking my work home with me
+            when needed. Whilst I was junior developer I was fortunate
+            enough to have some great mentors and I remember this when
+            I encounter junior developers now, passing on my knowledge
+            while also giving them the tools to search out the answers
+            for themselves.
+    - section:
+        title: Education
+        type: academic
+        items:
+            - item:
+                name: Braintree College
+                start:
+                    year: 2000
+                finish:
+                    year: 2001
+                certification: "'As' Levels"
+                - subject: Accounting
+                - subject: Computing
+                - subject: Mathematics
+            - item:
+                name: The Rickstones School
+                start:
+                    year: 1995
+                finish:
+                    year: 2000
+                certification: GCSEs
+                - subject: Mathematics
+                  grade: A
+                - subject: Science
+                  grade: B
+                - subject: English
+                  grade: C
+                footer: + 7 (Grade A - C)
+    - section:
+        title: Work Experience
+        type: experience
+        items:
+            - item:
+                name: Bauer Media Group
+                start:
+                    year: 2012
+                    month: 1
+                finish:
+                    year: 2012
+                    month: 10
+                position: DevOps Engineer
+                summary: >
+                    Bauer Media Group is a multinational media company; within
+                    the UK they publish in excess of 50 magazines, and own
+                    more than 30 local and national radio stations. My primary
+                    project here had me provide devops support while they
+                    brought the websites for each of their radio stations
+                    in-house while also developing a service oriented
+                    architecture to provide a single flexible backend for all
+                    of them.
+                responsibilities:
+                    - "Continuous Integration with Jenkins (Set up to provide continuous delivery)"
+                    - "Automated testing and generation of software metrics (PHPUnit, Phing, PHPMD, PHP_CPD, PHP_CodeSniffer)"
+                    - "Automated deployment (Ruby/Capistrano)"
+                    - "Setup/Configure servers to run on VMs within 3 separated environments (gitosis, apache2, nginx, varnish, memcache, solr, mysql, gearman)"
+                    - "Work closely with the ops team based in Poland to make sure groups (developers, UAT, penetration testers) have everything they need to do their job without impacting each other"
+                    - "Work with employment agencies and conduct interviews to further grow the development team"
+                skills:
+                    - "Using Jenkins/PHP/Ruby/Git/Testing to provide continuous delivery"
+                    - "Caching with varnish"
+                    - "Working with an ops team"
+                    - "Developing service oriented architectures with PHP/Zend/Doctrine/Twig"
+            - item:
+                name: theAudience
+                start:
+                    year: 2011
+                    month: 5
+                finish:
+                    year: 2011
+                    month: 12
+                position: DevOps Engineer
+                summary: >
+                    theAudience is a fairly new social media startup providing
+                    services for a growing list of registered celebrities.
+                    Joining the company soon after its creation, I was responsible
+                    for setting up their first LAMP stack on a single VPS and
+                    growing the infrastructure with the business with multiple
+                    instances on the Rackspace cloud, provisioned with Puppet
+                    and monitored by Zabbix with triggers to fire up extra
+                    instances when the load demanded it.
+                responsibilities:
+                    - "Implement VCS (SVN initially, later migrated to git)"
+                    - "Develop RESTful API (PHP, custom mvc framework)"
+                    - "Develop core system with admin area to use the API (PHP, Zend Framework)"
+                    - "Install / configure MTA to process all incoming emails (Postfix, Custom perl script)"
+                    - "Create Facebook apps for client Facebook pages"
+                    - "Design, implement, and administrate a cloud server architecture based on data collected from existing user interaction and requirements gathered from CTO (Rackspace Cloud, Amazon S3 for backups and media storage)"
+                    - "Managing the London office when the manager is on holiday or visiting the LA office"
+                skills:
+                    - "Setting up and using git as a VCS" 
+                    - "Managing a small team of developers"
+                    - "Designing a cloud architecture"
+                    - "Managing multiple servers using Puppet"
+                    - "Developing a RESTful API in PHP"
+            - item:
+                name: Lightfarm
+                start:
+                    year: 2010
+                    month: 10
+                finish:
+                    year: 2011
+                    month: 5
+                position: PHP Developer / Server Administrator
+                summary: >
+                    Lightfarm is the parent name of a group of multimedia
+                    companies that include production studios, editing
+                    studios, and a group of websites offering streaming video
+                    on demand. I was employed here to work on their websites
+                    and their streaming media server. 
+                responsibilities:
+                    - "Maintain and develop the group of streaming media websites (PHP, Zend Framework)"
+                    - "Maintain and develop the streaming media server (Wowza Media Server, Java)"
+                    - "Maintain SVN and dedicated servers"
+                    - "Developing a mobile streaming site (Sencha Touch, PHP, MP4 Streaming with Wowza)"
+                skills:
+                    - "Working with E-Commerce systems (OSCommerce, Magento)"
+                    - "Mobile web development"
+                    - "Developing Java Plugins for Wowza"
+                    - "OOP design patterns"
+                    - "Working with Zend Framework"
+            - item:
+                name: 3DMarComms
+                start:
+                    year: 2009
+                    month: 11
+                finish:
+                    year: 2010
+                    month: 9
+                position: PHP Developer
+                summary: >
+                    3D MarComms develop Harbour ATS, an advanced, feature
+                    rich and highly configurable Applicant Tracking System,
+                    giving companies more control over their recruitment.
+                    See http://www.harbour-ats.com/clients/ for examples.
+                responsibilities:
+                    - "Maintain and develop the in-house PHP MVP framework"
+                    - "Use custom framework to further develop the ATS"
+                    - "Share the responsibility of maintaining SVN and dedicated servers"
+                    - "Analyze client’s website and use CSS/JavaScript to restyle the ATS"
+                skills:
+                    - "Using SVN for version control"
+                    - "Front end development using jQuery and CSS"
+                    - "Linux server administration"
+                    - "Advanced object oriented features of PHP"
+            - item:
+                name: Ardent Creative
+                start:
+                    year: 2006
+                    month: 1
+                finish:
+                    year: 2006
+                    month: 11
+                position: PHP Developer
+                summary: >
+                    Ardent Creative is a creative agency that offers brand
+                    development, graphic design and web development. My time
+                    here was spent working on many different clients’ projects,
+                    although most of the work was frontend development, I also
+                    had to work on the company’s bespoke CMS. 
+                responsibilities:
+                    - "Developing templates from PSDs received from in house designer."
+                    - "Front end development (XHTML, JavaScript, CSS)."
+                    - "Back end development (PHP, MySQL)."
+                    - "Developing the CMS offered to clients."
+                skills:
+                    - "Object Oriented PHP"
+                    - "Using CSS for page layouts without tables."
+            - item:
+                name: Cruise Control
+                start:
+                    year: 2004
+                    month: 10
+                finish:
+                    year: 2005
+                    month: 10
+                position: PHP Intranet Developer
+                summary: >
+                    Cruise Control was the leading specialist cruise travel
+                    agency in the UK. As part of a development team of 5 we
+                    were tasked with the development of the company intranet
+                    used extensively by each department (Excluding Accounting),
+                    and primarily by the sales floor. 
+                responsibilities:
+                    - "Developing the company intranet (PHP, MySQL Database)."
+                    - "Liaising with other departments to implement new features."
+                    - "Providing support/training to departments using the intranet."
+                    - "Providing tech support for the sales floor."
+                skills:
+                    - "Intranet development"
+                    - "Using PHP"
+                    - "Relational database management with MySQL"
+                    - "Providing training and support."
+            - item:
+                name: Lizard Design
+                start:
+                    year: 2001
+                    month: 7
+                finish:
+                    year: 2004
+                    month: 10
+                position: ASP Developer
+                summary: >
+                    Lizard Design is a small design agency and was my first
+                    exposure to web development professionally. Starting here
+                    as a trainee, initial responsibilities consisted of front
+                    end development. In time I was made lead developer and
+                    handled entire projects to completion.
+                responsibilities:
+                    - "Developing templates from PSDs received from in house designer"
+                    - "Front end development (HTML, JavaScript, CSS)"
+                    - "Back end development (ASP, MSAccess Databases)"
+                    - "Taking responsibility for entire projects, including meeting with clients and working to deadlines."
+                skills:
+                    - "Developing web sites using HTML, JavaScript, CSS & ASP"
+                    - "Creating sites that render well across popular browsers of the time (Including Netscape Navigator 4)"
