@@ -3,6 +3,11 @@ address: hidden
 contact:
     Mobile: "07450 432269"
     Email: mack.brett@gmail.com
+links:
+    - url: https://github.com/devopsbrett
+      type: github
+    - url: http://blog.foxienet.com
+      type: blog
 
 sections:
     - section:
